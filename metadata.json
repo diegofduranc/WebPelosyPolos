@@ -1,0 +1,6 @@
+{
+  "name": "pelos & polos",
+  "description": "Peluquería canina de lujo a domicilio y heladería premium para mascotas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
