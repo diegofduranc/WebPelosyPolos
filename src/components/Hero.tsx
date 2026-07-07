@@ -56,8 +56,9 @@ export default function Hero({ onBookClick, onCatalogClick }: HeroProps) {
 
         {/* Description */}
         <p className="text-base sm:text-lg text-slate-400 max-w-2xl font-light leading-relaxed mb-10">
-          Diseñamos cortes de pelo de alta costura canina y spa relajante en la puerta de tu hogar, 
-          acompañados por nuestras icónicas paletas de helado artesanales, 100% naturales, saludables y seguras para su bienestar.
+          Realizamos servicio de peluquería canina profesional en la comodidad de tu hogar y 
+          para consentir a tu peludo contamos con nuestras paletas de helado elaboradas con ingredientes naturales, 
+          saludables y seguras para su bienestar.
         </p>
 
         {/* CTA Button Group */}
@@ -95,9 +96,10 @@ export default function Hero({ onBookClick, onCatalogClick }: HeroProps) {
               <MapPin className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-sans font-medium text-sm text-[#FAF9F6] mb-1">A Domicilio en Van Móvil</h3>
+              <h3 className="font-sans font-medium text-sm text-[#FAF9F6] mb-1">A domicilio en la comodidad de tu hogar</h3>
               <p className="text-xs text-slate-400 font-light leading-relaxed">
-                Nuestras vans spa totalmente equipadas atienden en Bogotá y Medellín. Sin estrés de traslados.
+                Nuestro equipo de profesionales atenderán a tu peludo en las instalaciones de tu casa, 
+                servicio personalizado y cero estrés para tu perro
               </p>
             </div>
           </div>
@@ -107,9 +109,9 @@ export default function Hero({ onBookClick, onCatalogClick }: HeroProps) {
               <IceCream className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-sans font-medium text-sm text-[#FAF9F6] mb-1">Helados 100% Seguros</h3>
+              <h3 className="font-sans font-medium text-sm text-[#FAF9F6] mb-1">Helados 100% Naturales</h3>
               <p className="text-xs text-slate-400 font-light leading-relaxed">
-                Sin lactosa, sin azúcar añadida, con frutas frescas, prebióticos y un palito comestible de galleta de avena.
+                Con ingredientes frescos e irresistibles para el paladar de tu peludo
               </p>
             </div>
           </div>
