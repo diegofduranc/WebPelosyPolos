@@ -13,6 +13,8 @@ import IceCreamSection from './components/IceCreamSection';
 import MyPetsSection from './components/MyPetsSection';
 import CartDrawer from './components/CartDrawer';
 import Footer from './components/Footer';
+import paletas1 from './assets/images/paletas_1.jpg';
+import paletas2 from './assets/images/paletas_2.jpg';
 
 // CURATED STATIC DATA FOR GROOMERS
 const INITIAL_GROOMERS: Groomer[] = [
@@ -80,7 +82,7 @@ const INITIAL_ICECREAMS: IceCream[] = [
     popular: true,
     color: 'from-amber-500 to-yellow-600',
     imageEmoji: '🍦',
-    imageUrl: '/src/assets/images/paletas_1.jpg'
+    imageUrl: paletas1
   },
   {
     id: 'PACK-10',
@@ -92,7 +94,7 @@ const INITIAL_ICECREAMS: IceCream[] = [
     popular: true,
     color: 'from-orange-500 to-red-600',
     imageEmoji: '🍦',
-    imageUrl: '/src/assets/images/paletas_2.jpg'
+    imageUrl: paletas2
   },
   {
     id: 'PACK-15',
@@ -104,7 +106,7 @@ const INITIAL_ICECREAMS: IceCream[] = [
     popular: false,
     color: 'from-purple-500 to-indigo-600',
     imageEmoji: '🍦',
-    imageUrl: '/src/assets/images/paletas_1.jpg'
+    imageUrl: paletas1
   },
   {
     id: 'PACK-30',
@@ -116,7 +118,7 @@ const INITIAL_ICECREAMS: IceCream[] = [
     popular: true,
     color: 'from-yellow-500 to-amber-600',
     imageEmoji: '🍦',
-    imageUrl: '/src/assets/images/paletas_2.jpg'
+    imageUrl: paletas2
   }
 ];
 
